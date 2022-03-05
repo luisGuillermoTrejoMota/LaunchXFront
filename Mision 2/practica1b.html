@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en"> 
+    <head> 
+        <link rel="stylesheet" href="practica1valid.css">
+        <link rel="stylesheet" href="./practica1fondo.css">
+        <link rel="stylesheet" href="./practica1Colortabla.css">
+        <link rel="stylesheet" href="./practica1Centrado.css">
+
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,, initial-scale=1.0"> 
+        <title>Pastelería Nebulosa</title> 
+        <style></style> 
+        <link rel="stylesheet" href="">
+        <script></script>
+    </head> 
+    <body  class="centrar">
+        <form action=""> 
+
+            <img src="./imgPastel/Pasteleria.png" alt="" width="200" height="200">
+            
+        <h1>Pastelería nebulosa</h1>
+        
+        <h2>La pastelería que se adapta a tus necesidades arma el pastel que se adapte a tu mision</h2>
+        
+        <h3>Base de tu pastel</h3>
+<table class="transparente" border="1" cellpadding="1" cellspacing="1"  >
+    <tr>
+        <th>Meteorito (4 Personas)</th>
+        <th>$90.00</th>
+    </tr>
+    <tr>
+        <th>Cometa (8 Personas)</th>
+        <th>$150.00</th>
+    </tr>
+    <tr>
+        <th>Satelite (16 Personas)</th>
+        <th>$290.00</th>
+    </tr>
+    <tr>
+        <th>Planeta (32  personas)</th>
+        <th>$680.00</th>
+    </tr>
+    <tr>
+        <th>Estrella (64 Personas)</th>
+        <th>$1350.00</th>
+    </tr>
+    <tr>
+        <th>Nebulosa (128 Personas)</th>
+        <th>$2600.00</th>
+    </tr>
+
+
+</table>
+<table class="transparente" border="1" cellpadding="1" cellspacing="1"  >
+                <select name="Cuerpo" style="width: 200px">
+                <option value="" selected></option>
+                <option value="4 personas">Meteorito</option>
+                <option value="8 Personas">Cometa</option>
+                <option value="16 Personas">Satelite</option>
+                <option value="32 Personas">Planeta</option>
+                <option value="64 Personas">Estrella</option>
+                <option value="128 Personas">Nebulosa</option>
+            </table>
+
+        <br><br>
+        <table class="transparente" border="1" cellpadding="1" cellspacing="1"  >
+            <h3>Sabor del pastel</h3>
+
+            <tr>
+                <th><img src="./imgPastel/s001.jpg" alt="Sabor 1" width="200" height="200"></th>
+                <th><img src="./imgPastel/s002.jpg" alt="Sabor 2" width="200" height="200"></th>
+                <th><img src="./imgPastel/s003.jpeg" alt="Sabor 3" width="200" height="200"></th>
+                <th><img src="./imgPastel/s004.jpg" alt="Sabor combinado" width="200" height="200"></th>
+            </tr>
+            <tr>
+                <th>Fresa <br><input type="checkbox" name="sabor" value="Fresa"></th>
+                <th>Vainilla <br><input type="checkbox" name="sabor" value="Vainilla"></th>
+                <th>Chocolate <br><input type="checkbox" name="sabor" value="Chocolate"></th>
+                <th>Combinado <br><input type="checkbox" name="sabor" value="Combinado"></th>
+            </tr>
+            <br><br>
+        </table>
+        <table class="transparente" border="1" cellpadding="1" cellspacing="1"  >
+            <h3>Que galaxia visitaras</h3>
+
+            <tr>
+                <th><img src="./imgPastel/001.jpg" alt="Cubierta 2" width="200" height="200"></th>
+                <th><img src="./imgPastel/002.jpg" alt="Cubierta 3" width="200" height="200"></th>
+                <th><img src="./imgPastel/003.jpg" alt="Cubierta 1" width="200" height="200"></th>
+            </tr>
+            <tr>
+                <th>+$0.00 <br>Galaxia simple <br><input type="checkbox" name="Cover" value="GSimple"></th>
+                <th>+50.00 <br>Galaxia Detallada <br><input type="checkbox" name="Cover" value="GDetallado"></th>
+                <th>+$75.00 <br>Astro Detallado <br><input type="checkbox" name="Cover" value="Astro"><br>
+                <select name="Astro" style="width: 200px">
+                <option value="" selected></option>
+                <option value="Mercurio">Mercurio</option>
+                <option value="Venus">Venus</option>
+                <option value="Tierra">Tierra</option>
+                <option value="Marte">Marte</option>
+                <option value="Jupiter">Jupiter</option>
+                <option value="Saturno">Saturno</option>
+                <option value="Urano">Urano</option>
+                <option value="Neptuno">Neptuno</option>
+                <option value="Pluton">Pluton</option>
+                <option value="Sol">Sol</option>
+                </select></th>
+            </tr>
+            <br><br>
+
+        </table>
+        <table class="transparente" border="1" cellpadding="1" cellspacing="1"  >
+            <h3>Cual es tu equipo para la misión</h3>
+
+            <tr>
+                <th><img src="./imgPastel/B003.jpg" alt="Decoración 1" width="200" height="200"></th>
+                <th><img src="./imgPastel/b002.jpg" alt="Decoración 2" width="200" height="200"></th>
+                <th><img src="./imgPastel/b001.jpg" alt="Decoración 3" width="200" height="200"></th>
+            </tr>
+            <tr>
+                <th>+$0.00 <br>Equipo basico <br><input type="checkbox" name="Deco" value="Equipo basico"></th>
+                <th>Precio varia segun el diseño <br>Equipo de aterrizaje <br><input type="checkbox" name="Deco" value="Diseño"></th>
+                <th>+$25.00 c/u <br>Equipo especial <br><input type="checkbox" name="Deco" value="Macaron"> <br> <select name="macaron" id="macaron">
+                    <option value="0" selected>0 Pieza</option>
+                    <option value="1">1 Pieza</option>
+                    <option value="2">2 Pieza</option>
+                    <option value="3">3 Pieza</option>
+                    <option value="4">4 Pieza</option>
+                    <option value="5">5 Pieza</option>
+                </select></th>
+            </tr>
+        </table>
+        <br><br><br><br>
+        <table class="transparente" border="1" cellpadding="1" cellspacing="1"  >
+            <tr>
+                    <th><h2><label for="nombre"> Nombre del cliente</h2></label> <br><input type="text" name="Nombre" placeholder="Nombre" id="nombre" size=" 150px" autocomplete="name" required><span class="validity" ></span></th>
+
+                    <th><h2> <label for="fecha"> Fecha de entrega</h2> </label><br> <input type="date" name="fecha" id="fecha" required><span class="validity"></span></th>
+                </tr>
+                <tr>
+                    <th><div><label for="email"> <br> Correo electronico </label><input type="email" name="email" placeholder="Correo@electronico.com" id="email" size="100" autocomplete="email" required><span class="validity"></span></div></th>
+                    <th><div><label for="Telefono">Telefono </label> <br> <input type="tel" name="Telefono" placeholder="123-456-7890" minlength="10" maxlength="10" id="Telefono" autocomplete="tel" required><span class="validity"></span></th>
+
+                </tr>
+            </table>
+            <table class="transparente" border="1" cellpadding="1" cellspacing="1"  >
+                <tr>
+                    <th><h2> Comentarios o detalles extras </h2><br> <input type="text" placeholder="Comentarios" name="Comentario" id="comentario" size="200px"></th>
+                    <th><h2>Si tienes un ejemplo puedes adjuntar una imagen <br> <input type="file" placeholder="Sube la referencia", id="referencia"></h2></th>
+                </tr>
+            </table>
+            <input type="Submit" value="Enviar">
+
+            
+        </form>
+
+
+    </body>
+</html>
