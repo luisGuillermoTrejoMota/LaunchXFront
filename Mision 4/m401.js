@@ -1,0 +1,10 @@
+var numero1;
+var numero2;
+var frase1;
+var frase2;
+numero1 = 4;
+numero2 = 2;
+frase1 = "Ejemplo de A";
+frase1 = "Ejemplo de B";
+console.log(numero1);
+console.log(frase1);

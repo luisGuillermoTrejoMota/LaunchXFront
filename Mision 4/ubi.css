@@ -1,0 +1,81 @@
+  body{
+    background-image: url("./Pokkedex.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  div {
+    width: 120;
+    height: 120;
+    position:relative;
+  }
+  .centrar{
+    position: absolute;
+  }
+  .a{
+    width: 120;
+    height: 120;
+    border-bottom-left-radius:100%;
+    border-top-left-radius:100%;
+    border-bottom-right-radius:100%;
+    top:-98;
+    left:72;
+      
+  }
+    .a1{
+    border-bottom-left-radius:100%;
+    border-top-left-radius:100%;
+    border-bottom-right-radius:100%;
+    top:-38;
+    left:132;
+  }
+  .b{
+	border-radius: 100%;
+    top:22;
+    left:192
+
+  }
+  .redondo{
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: blue;
+  }
+
+  .shiny {
+    min-width: 100px;
+    height: 25px;
+    color: rgb(0, 0, 0);
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    overflow: hidden;
+    border-radius: 5px;
+    border: none;
+    background-color: #0be43e
+  }
+  .arteO {
+    min-width: 100px;
+    height: 25px;
+    color: rgb(0, 0, 0);
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    overflow: hidden;
+    border-radius: 5px;
+    border: none;
+    background-color: #f75a00
+  }
+  p{
+    color: rgb(2, 100, 2);
+}

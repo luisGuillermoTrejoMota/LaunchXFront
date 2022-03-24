@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex LaunchX</title>
+    <link rel="stylesheet" href="./ubi.css">
+
+</head>
+<body>
+    <div style="position:absolute; top: 290px;; left:450px">
+        <img src="./Pokeball.png" alt="Pokemon" id="pokeImg" wigth="300px" height="300px"><br>
+    </div>
+    <div style="position:absolute; top: 885px;; left:483px">
+        <input type="text" placeholder="Escoge tu pokemon" id="pokeName" name="pokeName"><br>
+    </div>
+    <div style="position:absolute; top: 758px;; left:287px">
+        <button class="redondo" onclick="fetchPokemon()">Cambiar pokemon</button><br>
+    </div>
+    <div style="position:absolute; top: 783px;; left:440px">
+        <button class="shiny" onclick="fetchPokemonS()">Shiny</button><br>
+    </div>
+    <div style="position:absolute; top: 783px;; left:570px">
+        <button class="arteO" onclick="arteO()">3D</button><br>
+    </div>
+    <div style="position:absolute; top:245px;; left:1100px"><h2 ><p id="elName"></p></h2></div>
+    <div style="position:absolute; top:245px;; left:1600px"><h2 ><p id="numero"></p></h2></div>
+    <div style="position:absolute; top:320px;; left:1100px"><h2 ><p id="hp"></p></h2></div>
+    <div style="position:absolute; top:320px;; left:1270px"><h2 ><p id="nhp"></p></h2></div>
+    <div style="position:absolute; top:340px;; left:1100px"><h2 ><p id="ataque"></p></h2></div>    
+    <div style="position:absolute; top:340px;; left:1270px"><h2 ><p id="nataque"></p></h2></div>
+    <div style="position:absolute; top:360px;; left:1100px"><h2 ><p id="defensa"></p></h2></div>
+    <div style="position:absolute; top:360px;; left:1270px"><h2 ><p id="ndefensa"></p></h2></div>
+    <div style="position:absolute; top:380px;; left:1100px"><h2 ><p id="specialat"></p></h2></div>
+    <div style="position:absolute; top:380px;; left:1270px"><h2 ><p id="nspecialat"></p></h2></div>
+    <div style="position:absolute; top:400px;; left:1100px"><h2 ><p id="specialde"></p></h2></div>
+    <div style="position:absolute; top:400px;; left:1270px"><h2 ><p id="nspecialde"></p></h2></div>
+    <div style="position:absolute; top:420px;; left:1100px"><h2 ><p id="vel"></p></h2></div>
+    <div style="position:absolute; top:420px;; left:1270px"><h2 ><p id="nvel"></p></h2></div>
+    <div style="position:absolute; top:265px;; left:1100px"><h2 ><p id="tipoA"></p></h2></div>
+    <div style="position:absolute; top:265px;; left:1270px"><h2 ><p id="tipoB"></p></h2></div>
+    <div style="position:absolute; top:320px;; left:1400px"><h2 ><p id="texto"></p></h2></div>
+    <div style="position:absolute; top:360px;; left:1400px"><h2 ><p id="ataA"></p></h2></div>
+    <div style="position:absolute; top:380px;; left:1400px"><h2 ><p id="ataB"></p></h2></div>
+    <div style="position:absolute; top:400px;; left:1400px"><h2 ><p id="ataC"></p></h2></div>
+    <div style="position:absolute; top:420px;; left:1400px"><h2 ><p id="ataD"></p></h2></div>
+
+
+
+    <footer>
+    <script src ="./pokedexLaunchx.js">
+    </script>
+    <script type="text/javascript" src="./pokedexLaunchx.js" ></script>
+</footer>
+</body>
+</html>
